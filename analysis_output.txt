@@ -1,0 +1,113 @@
+﻿flutter.bat : Package file_picker:linux references file_picker:linux as the 
+default plugin, but it does not provide an inline implementation.
+At line:1 char:1
++ flutter.bat analyze lib/screens/reports_screen.dart 2>&1 | Out-File - ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Package file_pi...implementation. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: linux: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: linux:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:macos references file_picker:macos as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: macos: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: macos:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:windows references file_picker:windows as the default 
+plugin, but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: windows: default_package: file_picker` or add 
+an inline implementation to file_picker via `platforms: windows:` 
+`pluginClass` or `dartPluginClass`.
+
+Package file_picker:linux references file_picker:linux as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: linux: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: linux:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:macos references file_picker:macos as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: macos: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: macos:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:windows references file_picker:windows as the default 
+plugin, but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: windows: default_package: file_picker` or add 
+an inline implementation to file_picker via `platforms: windows:` 
+`pluginClass` or `dartPluginClass`.
+
+Package file_picker:linux references file_picker:linux as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: linux: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: linux:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:macos references file_picker:macos as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: macos: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: macos:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:windows references file_picker:windows as the default 
+plugin, but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: windows: default_package: file_picker` or add 
+an inline implementation to file_picker via `platforms: windows:` 
+`pluginClass` or `dartPluginClass`.
+
+Package file_picker:linux references file_picker:linux as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: linux: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: linux:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:macos references file_picker:macos as the default plugin, 
+but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: macos: default_package: file_picker` or add an 
+inline implementation to file_picker via `platforms: macos:` `pluginClass` or 
+`dartPluginClass`.
+
+Package file_picker:windows references file_picker:windows as the default 
+plugin, but it does not provide an inline implementation.
+Ask the maintainers of file_picker to either avoid referencing a default 
+implementation via `platforms: windows: default_package: file_picker` or add 
+an inline implementation to file_picker via `platforms: windows:` 
+`pluginClass` or `dartPluginClass`.
+
+Analyzing reports_screen.dart...                                
+
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\reports_screen.dart:137:24 - use_build_context_synchronously
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement - lib\screens\reports_screen.dart:180:31 - deprecated_member_use
+  error - The method 'QuantityReportTab' isn't defined for the type '_ReportsScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'QuantityReportTab' - lib\screens\reports_screen.dart:212:27 - undefined_method
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement - lib\screens\reports_screen.dart:328:19 - deprecated_member_use
+   info - Unnecessary use of string interpolation. Try replacing the string literal with the variable name - lib\screens\reports_screen.dart:427:41 - unnecessary_string_interpolations
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement - lib\screens\reports_screen.dart:671:15 - deprecated_member_use
+  error - Expected to find ']' - lib\screens\reports_screen.dart:838:9 - expected_token
+  error - Expected to find ';' - lib\screens\reports_screen.dart:839:7 - expected_token
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\screens\reports_screen.dart:839:8 - dead_code
+  error - Expected an identifier - lib\screens\reports_screen.dart:839:8 - missing_identifier
+  error - Expected to find ';' - lib\screens\reports_screen.dart:839:8 - expected_token
+  error - Unexpected text ';'. Try removing the text - lib\screens\reports_screen.dart:839:8 - unexpected_token
+  error - Expected an identifier - lib\screens\reports_screen.dart:840:5 - missing_identifier
+  error - Unexpected text ';'. Try removing the text - lib\screens\reports_screen.dart:840:5 - unexpected_token
+   info - Unnecessary empty statement. Try removing the empty statement or restructuring the code - lib\screens\reports_screen.dart:840:6 - empty_statements
+warning - The declaration '_QuantityReportSummary' isn't referenced. Try removing the declaration of '_QuantityReportSummary' - lib\screens\reports_screen.dart:844:7 - unused_element
+   info - Statements in a for should be enclosed in a block. Try wrapping the statement in a block - lib\screens\reports_screen.dart:912:25 - curly_braces_in_flow_control_structures
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead. Try replacing the use of the deprecated member with the replacement - lib\screens\reports_screen.dart:925:7 - deprecated_member_use
+
+18 issues found. (ran in 18.9s)
